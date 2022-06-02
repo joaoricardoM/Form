@@ -11,7 +11,7 @@ class Formulario extends React.Component {
                     <label htmlFor="Tarefa">
                        Add new Material for study
                     </label>
-                    <input type="text" name="tarefa" id="tarefa" placeholder="O que deseja estudar" required />
+                    <input type="text" name="tarefa" id="tarefa" placeholder="What you want to study" required />
                 </div>
                 <div className={style.inputContainer}>
                     <label htmlFor="Tempo">
@@ -19,7 +19,7 @@ class Formulario extends React.Component {
                     </label>
                     <input type="time" step="1" name="tempo" id="tempo" min="00:00:00" max="01:30:00" />
                 </div>
-                <Botao> Adicionar </Botao>
+                <Botao> Add </Botao>
             </form>
         )
     }
